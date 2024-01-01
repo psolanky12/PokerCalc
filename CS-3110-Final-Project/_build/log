@@ -1,0 +1,154 @@
+# dune exec bin/main.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/Priyanjali/3110/CS-3110-Final-Project
+# Auto-detected concurrency: 10
+$ /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -config > /var/folders/14/6x4rdtb11cvddkhqj3q9_2gw0000gp/T/dune_c3a26e_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; ocaml_bin = External "/Users/Priyanjali/.opam/cs3110-2023fa/bin"
+#  ; ocaml = Ok External "/Users/Priyanjali/.opam/cs3110-2023fa/bin/ocaml"
+#  ; ocamlc = External "/Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml:/Users/Priyanjali/.opam/cs3110-2023fa/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/Priyanjali/3110/CS-3110-Final-Project"
+#        ; "INSIDE_DUNE" :
+#            "/Users/Priyanjali/3110/CS-3110-Final-Project/_build/default"
+#        ; "MANPATH" :
+#            "/Users/Priyanjali/3110/CS-3110-Final-Project/_build/install/default/man"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/Priyanjali/3110/CS-3110-Final-Project/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/Priyanjali/3110/CS-3110-Final-Project/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/Priyanjali/3110/CS-3110-Final-Project/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External "/Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml"
+#      ; External "/Users/Priyanjali/.opam/cs3110-2023fa/lib"
+#      ]
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "5.0.0"
+#      ; standard_library_default =
+#          "/Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml"
+#      ; standard_library = "/Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin21.6.0"
+#      ; target = "x86_64-apple-darwin21.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X032"
+#      ; cmi_magic_number = "Caml1999I032"
+#      ; cmo_magic_number = "Caml1999O032"
+#      ; cma_magic_number = "Caml1999A032"
+#      ; cmx_magic_number = "Caml1999Y032"
+#      ; cmxa_magic_number = "Caml1999Z032"
+#      ; ast_impl_magic_number = "Caml1999M032"
+#      ; ast_intf_magic_number = "Caml1999N032"
+#      ; cmxs_magic_number = "Caml1999D032"
+#      ; cmt_magic_number = "Caml1999T032"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I src/.poker.objs/byte -no-alias-deps -opaque -o src/.poker.objs/byte/poker.cmo -c -impl src/poker.ml-gen)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf src/game.mli) > _build/default/src/.poker.objs/poker__Game.intf.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf src/handComparison.mli) > _build/default/src/.poker.objs/poker__HandComparison.intf.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf src/hand.mli) > _build/default/src/.poker.objs/poker__Hand.intf.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl src/seat.ml) > _build/default/src/.poker.objs/poker__Seat.impl.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf src/card.mli) > _build/default/src/.poker.objs/poker__Card.intf.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf src/seat.mli) > _build/default/src/.poker.objs/poker__Seat.intf.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf src/odds.mli) > _build/default/src/.poker.objs/poker__Odds.intf.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -intf src/handRater.mli) > _build/default/src/.poker.objs/poker__HandRater.intf.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl src/card.ml) > _build/default/src/.poker.objs/poker__Card.impl.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl src/game.ml) > _build/default/src/.poker.objs/poker__Game.impl.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl src/handComparison.ml) > _build/default/src/.poker.objs/poker__HandComparison.impl.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl src/hand.ml) > _build/default/src/.poker.objs/poker__Hand.impl.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl src/handRater.ml) > _build/default/src/.poker.objs/poker__HandRater.impl.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamldep.opt -modules -impl src/odds.ml) > _build/default/src/.poker.objs/poker__Odds.impl.d
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.poker.objs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -no-alias-deps -opaque -open Poker -o src/.poker.objs/byte/poker__Seat.cmi -c -intf src/seat.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.poker.objs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -no-alias-deps -opaque -open Poker -o src/.poker.objs/byte/poker__Card.cmi -c -intf src/card.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.poker.objs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -no-alias-deps -opaque -open Poker -o src/.poker.objs/byte/poker__Odds.cmi -c -intf src/odds.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.poker.objs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -no-alias-deps -opaque -open Poker -o src/.poker.objs/byte/poker__Hand.cmi -c -intf src/hand.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.poker.objs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -no-alias-deps -opaque -open Poker -o src/.poker.objs/byte/poker__HandRater.cmi -c -intf src/handRater.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.poker.objs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -no-alias-deps -opaque -open Poker -o src/.poker.objs/byte/poker__Game.cmi -c -intf src/game.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.poker.objs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -no-alias-deps -opaque -open Poker -o src/.poker.objs/byte/poker__HandComparison.cmi -c -intf src/handComparison.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I bin/.main.eobjs/byte -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -I src/.poker.objs/byte -no-alias-deps -opaque -o bin/.main.eobjs/byte/dune__exe__Main.cmi -c -intf bin/main.mli)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I src/.poker.objs/byte -I src/.poker.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o src/.poker.objs/native/poker.cmx -c -impl src/poker.ml-gen)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.poker.objs/byte -I src/.poker.objs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -intf-suffix .ml -no-alias-deps -opaque -open Poker -o src/.poker.objs/native/poker__Seat.cmx -c -impl src/seat.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.poker.objs/byte -I src/.poker.objs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -intf-suffix .ml -no-alias-deps -opaque -open Poker -o src/.poker.objs/native/poker__HandRater.cmx -c -impl src/handRater.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.poker.objs/byte -I src/.poker.objs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -intf-suffix .ml -no-alias-deps -opaque -open Poker -o src/.poker.objs/native/poker__Card.cmx -c -impl src/card.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.poker.objs/byte -I src/.poker.objs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -intf-suffix .ml -no-alias-deps -opaque -open Poker -o src/.poker.objs/native/poker__HandComparison.cmx -c -impl src/handComparison.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.poker.objs/byte -I src/.poker.objs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -intf-suffix .ml -no-alias-deps -opaque -open Poker -o src/.poker.objs/native/poker__Game.cmx -c -impl src/game.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.poker.objs/byte -I src/.poker.objs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -intf-suffix .ml -no-alias-deps -opaque -open Poker -o src/.poker.objs/native/poker__Hand.cmx -c -impl src/hand.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.poker.objs/byte -I src/.poker.objs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -intf-suffix .ml -no-alias-deps -opaque -open Poker -o src/.poker.objs/native/poker__Odds.cmx -c -impl src/odds.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/bytes -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv -I /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str -I src/.poker.objs/byte -I src/.poker.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -a -o src/poker.cmxa src/.poker.objs/native/poker.cmx src/.poker.objs/native/poker__Seat.cmx src/.poker.objs/native/poker__Odds.cmx src/.poker.objs/native/poker__Card.cmx src/.poker.objs/native/poker__Hand.cmx src/.poker.objs/native/poker__HandRater.cmx src/.poker.objs/native/poker__HandComparison.cmx src/.poker.objs/native/poker__Game.cmx)
+$ (cd _build/default && /Users/Priyanjali/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -o bin/main.exe /Users/Priyanjali/.opam/cs3110-2023fa/lib/ocaml/str/str.cmxa /Users/Priyanjali/.opam/cs3110-2023fa/lib/csv/csv.cmxa src/poker.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)

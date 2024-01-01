@@ -1,0 +1,31 @@
+---
+# Members of your group.
+group:
+  - name: Jake ludgin
+    netid: jml557
+  - name: Riley Coogan
+    netid: rmc329
+  - name: Priyanjali Solanky
+    netid: pss233
+# Your PM.
+pm:
+  name: Parth Sarkar
+  netid: ps679
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "Poker Heads-Up Odds Generator"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/jml557/CS-3110-Final-Project"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is a poker generator that tells a player their odds of winning
+  pre-flop against a certain amount of players at the table. This system is a
+  quick and easy way to become more familiar with the game of poker, and will teach
+  you necessary skills preflop. Our interface asks the user a series of questions,
+  and then runs a simulation to calculate your odds for you.
+
+  The interface uses an I/O based interface to give the user the information 
+  needed.

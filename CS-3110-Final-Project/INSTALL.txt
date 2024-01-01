@@ -1,0 +1,4 @@
+In order to run our build system, the user must run the terminal command 
+OPAM INSTALL csv. This will give the user access to the OCAML csv library, and
+more specifcally the database the poker generator uses. Then, type make chat
+in terminal to run the interface and let the user learn their odds in poker.
